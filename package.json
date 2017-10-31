@@ -1,0 +1,17 @@
+{
+  "name": "gas-tank",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "src/drive-update-checker/main.ts",
+  "scripts": {
+    "publish": "npm run tsc && npm run upload",
+    "tsc": "tsc",
+    "upload": "gapps upload"
+  },
+  "author": "kaelaela <kaelaela.31@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/google-apps-script": "0.0.11"
+  }
+}
